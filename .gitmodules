@@ -1,0 +1,6 @@
+[submodule "vision/EEE2Rover"]
+	path = vision/EEE2Rover
+	url = https://github.com/neeldug/EEE2Rover
+[submodule "Rover_SysML"]
+	path = Rover_SysML
+	url = https://github.com/gkarfakis19/Rover_SysML

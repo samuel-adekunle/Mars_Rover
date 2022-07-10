@@ -1,0 +1,42 @@
+{
+	"payload": {
+		"class": "string",
+		"timestamp": "int",
+		"data": "stringified json"
+	},
+	"move-command": {
+		"position": {
+			"x": "int",
+			"y": "int"
+		}
+	},
+	"start-command": {},
+	"stop-command": {},
+	"reset-command": {},
+	"scan-command": {},
+	"ping-command": {},
+	"pong-command": {},
+	"clear-path": {},
+	"obstacle": {
+		"position": {
+			"x": "int",
+			"y": "int"
+		},
+		"color": "int"
+	},
+	"rover": {
+		"position": {
+			"x": "int",
+			"y": "int",
+			"theta": "int"
+		},
+		"battery": "int",
+		"charging": "boolean",
+		"speed": "int"
+	},
+	"subsystem-status": {
+		"vision": true,
+		"drive": false,
+		"energy":false
+	}
+}
